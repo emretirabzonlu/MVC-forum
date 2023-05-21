@@ -1,0 +1,34 @@
+{
+  "post": [
+    {
+      "id": 1,
+      "user": "Emre",
+      "title": "React Mvc Patter",
+      "text": "Ben bunu nasıl öğrenirim"
+    },
+    {
+      "id": 2,
+      "user": "Ahmet",
+      "title": "React Nedir ?",
+      "text": "Ben bunu nasıl öğrenirim"
+    },
+    {
+      "id": 3,
+      "user": "Ayşe",
+      "title": "Unit Testing",
+      "text": "Ben bunu nasıl öğrenirim"
+    },
+    {
+      "id": 4,
+      "user": "Ertuğrul",
+      "title": "ASP nedir ? ",
+      "text": "Ben bunu nasıl öğrenirim"
+    },
+    {
+      "id": 1684633981808,
+      "user": "emre",
+      "title": "baslik",
+      "text": "aynen\n"
+    }
+  ]
+}
