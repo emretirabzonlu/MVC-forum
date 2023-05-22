@@ -5,15 +5,15 @@
     font-family: sans-serif;
 }
 
-header{
+header {
     background-color: black;
     color: rgb(180, 9, 9);
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
     text-transform: uppercase;
-    
-    button{
+
+    button {
         background-color: rgba(255, 0, 0, 0.378);
         color: white;
         border-radius: 10px;
@@ -26,42 +26,44 @@ header{
     }
 }
 
-body{
+body {
     background-color: rgb(99, 97, 97);
 }
 
-.container{
+.container {
     width: 70vw;
     display: flex;
     flex-direction: column;
     margin: 100px auto;
     gap: 30px;
-    
+
 }
 
-.post{
+.post {
     background-color: rgba(255, 255, 255, 0.836);
     padding: 20px;
     border-radius: 10px;
 
-    &-info{
+    &-info {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        p{
+
+        p {
             font-weight: bold;
             color: rgb(255, 0, 0);
             cursor: pointer;
         }
     }
-    &-text{
+
+    &-text {
         margin-top: 20px;
     }
 }
 
 //add-post
 
-form{
+form {
     width: 50vw;
     height: 50vh;
     margin: 200px auto;
@@ -74,21 +76,24 @@ form{
     color: white;
     border-radius: 10px;
 
-    
 
-    fieldset{
+
+    fieldset {
         display: flex;
         flex-direction: column;
         gap: 5px;
         border: none;
         width: 70%;
-        label{}
-        input{
-            padding:5px 20px;
+
+        label {}
+
+        input {
+            padding: 5px 20px;
             border-radius: 5px;
             border: none;
         }
-        textarea{
+
+        textarea {
             resize: vertical;
             max-height: 100px;
             min-height: 50px;
@@ -96,14 +101,43 @@ form{
             border-radius: 10px;
 
         }
-       
+
     }
-    button{
+
+    button {
         padding: 10px 40px;
         border-radius: 50px;
         background-color: brown;
         border: none;
         color: white;
         font-weight: bold;
+    }
+}
+
+.modal {
+    position: fixed;
+    height: 80vh;
+    width: 50vw;
+    background-color: rgb(46, 45, 45);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        color: white;
+
+        span {
+            color: rgb(207, 14, 14);
+        }
     }
 }

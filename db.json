@@ -14,21 +14,22 @@
     },
     {
       "id": 3,
-      "user": "Ayşe",
+      "user": "Emre",
       "title": "Unit Testing",
       "text": "Ben bunu nasıl öğrenirim"
     },
     {
       "id": 4,
-      "user": "Ertuğrul",
+      "user": "Mehmet",
       "title": "ASP nedir ? ",
       "text": "Ben bunu nasıl öğrenirim"
     },
     {
-      "id": 1684633981808,
-      "user": "emre",
-      "title": "baslik",
-      "text": "aynen\n"
+      "id": 1684756079455,
+      "user": "Mehmet",
+      "title": "Redux",
+      "text": "Yardıma ihtiyacım var !!!"
     }
+ 
   ]
 }
