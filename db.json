@@ -29,7 +29,12 @@
       "user": "Mehmet",
       "title": "Redux",
       "text": "Yardıma ihtiyacım var !!!"
+    },
+    {
+      "id": 1684757122114,
+      "user": "Emre",
+      "title": "deneme",
+      "text": "merhaba"
     }
- 
   ]
 }

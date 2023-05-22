@@ -6,3 +6,10 @@ Forum App made with MVC Pattern
 
 ```
 React.js   Axios   React-Router-Dom   Json-Server 
+```
+
+<br>
+
+![](screen.gif)
+
+<br>
